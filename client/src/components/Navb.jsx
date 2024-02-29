@@ -2,7 +2,6 @@ import { useContext } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import { DataContext } from './DataContext';
 import { FaRegUser } from "react-icons/fa6";
 
