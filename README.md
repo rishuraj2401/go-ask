@@ -13,7 +13,7 @@ GoAsk is a web application that allows users to post questions, answer questions
 
 - **Backend:** Golang
 - **Frontend:** Vite, React
-- **Database:** [Specify your database, e.g., MongoDB, PostgreSQL]
+- **Database:** MongoDB
 
 ## Setup
 
