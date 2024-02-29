@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@150;200;300&display=swap');
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import 'bootstrap/dist/css/bootstrap.min.css';
+*{
+  box-sizing:border-box;
+  padding: 0;
+  margin: 0;
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+  font-family: 'Poppins', sans-serif;
+  /* background: rgb(46, 44, 44); */
+  
+}
+.maine{
+  /* display: grid; */
+  /* grid-template-rows: 10% 90%; */
+  /* background: #ed1b1b; */
+  width: 100%;
+  height: 100%;
+  padding: 2vw;
+  background-color: rgb(46, 44, 44);
+  color: aliceblue;
+  min-height: 100vh;
+  position: absolute;
+  margin-top: 5vh;
+  height: fit-content;
+}
+.main1{
+  margin-top: 1vw;
+  padding: 2vw;
+  /* background-color: rgb(46, 44, 44); */
+
+}
+
+.input{
+  /* background: #fbf9f9; */
+  max-height: 6vh;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  margin-top: 5vh;
+  /* background-color: aqua; */
+}
+.inp{
+  width: 70vw;
+  height: 6vh;
+  /* margin: 2vw; */
+}
+/* .input button{
+  width: 5vw;
+} */
+button{
+  border-radius: 8px;
+  padding: 5px;
+  margin-left: 1vw;
+  width: fit-content;
+  height: max-content;
+  border:1px solid #0b0b0b;
+}
+.quest{
+  padding:0 5vw 0 5vw;
+}
+.quest1{
+  display: flex;
+  justify-content: space-between;
+ 
+
+}
+.qh{
+  /* width: 80%; */
+}
+.ans2{
+  min-height: 5vh;
+  padding: 5vh;
+  border-left: 2px solid #0b0b0b;
+}
+.ans0{
+  padding: 5vh;
+  padding-left: 10vw;
+  border:1px solid #0b0b0b
+}
+.like{
+  display: flex;
+  justify-content: space-between;
+}
+.nave{
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+  /* height: 5vh; */
+  /* translate: top; */
+}
