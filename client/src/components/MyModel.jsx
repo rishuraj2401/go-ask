@@ -7,7 +7,7 @@ const MyModal = ({ isOpen, onRequestClose }) => {
   const {
     answer,setAnswer,
     handleAnswer,
-    q
+    q, handleCloseModal
     
   }=useContext(DataContext);
 //   const [inputValue, setInputValue] = useState('');
@@ -34,7 +34,7 @@ const handleA=(e)=>{
       }}
     >
         <div className="inp1">
-            <button type="button" onClick={(e)=>handleCloseModal(e)}>X</button>
+            <button type="button" onClick={handleCloseModal}>X</button>
             <textarea name="" id="" cols="30" rows="10" onChange={(e)=>setAnswer(e.target.value)} value={answer} >
 
             </textarea>

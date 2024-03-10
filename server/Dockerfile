@@ -10,8 +10,8 @@ COPY . .
 # Download and install any dependencies
 RUN go mod download
 
-# Build the Go application
-RUN go build -o main
+# Build the Go application               
+RUN go build -o main          
 
 # Expose the port the application runs on
 EXPOSE 8089
